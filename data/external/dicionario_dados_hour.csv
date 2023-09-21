@@ -1,0 +1,18 @@
+variavel,descricao,tipo,subtipo
+Instant,Índice de registro,Quantitativa,Discreta
+Dteday,Data,Qualitativa,Ordinal
+Season,"Estação (1:inverno, 2:primavera, 3:verão, 4:outono)",Qualitativa,Nominal
+Yr,Ano,Qualitativa,Ordinal
+Mnth,Mês,Qualitativa,Ordinal
+Hr,Hora,Qualitativa,Ordinal
+Holiday,"Se é feriado (1: positivo, 0: negativo)",Qualitativa,Nominal
+Weekday,Dia da semana,Qualitativa,Ordinal
+Workingday,"Se é dia útil (1: positivo, 0: negativo)",Qualitativa,Nominal
+Weathersit,"1: Céu limpo, 2: Nublado, 3: Chuva fraca, 4: Chuva forte",Qualitativa,Nominal
+Temp,"Temperatura normalizada em Celsius. Os valores são derivados via (t-t_min)/(t_max-t_min), t_min=-8, t_max=+39 (somente na escala horária)",Quantitativa,Contínua
+Atemp,Temperatura normalizada em Celsius.,Quantitativa,Contínua
+Hum,Umidade normalizada. Os valores são divididos por 100 (máx.),Quantitativa,Contínua
+Windspeed,Velocidade do vento normalizada.,Quantitativa,Contínua
+Casual,Contagem de usuários casuais,Quantitativa,Discreta
+Registered,Contagem de usuários registrados,Quantitativa,Discreta
+Cnt,"Contagem do total de bicicletas alugadas, incluindo casuais e registradas",Quantitativa,Discreta
